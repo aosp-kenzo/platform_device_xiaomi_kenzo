@@ -40,7 +40,6 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.qcom.bt.sh \
-    init.qcom.fm.sh \
     init.target.rc \
     ueventd.qcom.rc
 
@@ -246,20 +245,12 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap \
     camera.msm8952
 
 # Fingerprint
 PRODUCT_PACKAGES += \
     fingerprintd \
     fingerprint.kenzo
-
-# FM radio  
-PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio \
-    qcom.fmradio.xml
 
 # Consumerir
 PRODUCT_PACKAGES += \
@@ -317,10 +308,6 @@ PRODUCT_PACKAGES += \
     libbson \
     libcnefeatureconfig \
     libtinyxml
-
-PRODUCT_PACKAGES += \
-    Eleven \
-    Browser
 
 # Telephony packages
 PRODUCT_PACKAGES += \
