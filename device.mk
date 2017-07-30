@@ -322,5 +322,9 @@ QCOM_BOARD_PLATFORMS := msm8952
 # List of targets that use video hw
 MSM_VIDC_TARGET_LIST := msm8952
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=480 \
+    ro.maintainer=DoveKi
+
 $(call inherit-product, device/xiaomi/kenzo/utils.mk)
 
