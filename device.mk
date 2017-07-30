@@ -150,10 +150,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     lights.msm8952
 
-# Power
-PRODUCT_PACKAGES += \
-    power.msm8952
-
 # GPS
 PRODUCT_PACKAGES += \
     com.android.location.provider \
