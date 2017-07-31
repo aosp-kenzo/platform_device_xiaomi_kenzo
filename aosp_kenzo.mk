@@ -33,6 +33,3 @@ PRODUCT_MANUFACTURER := xiaomi
 $(call inherit-product, device/xiaomi/kenzo/device.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/kenzo/device-vendor.mk)
 
-PRODUCT_PACKAGES += \
-    Launcher3
-
