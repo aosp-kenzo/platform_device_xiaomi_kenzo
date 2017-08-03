@@ -312,6 +312,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     ims-ext-common
 
+# Browser packages
+PRODUCT_PACKAGES += \
+    Jelly
+
+# LCD
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=480
+
 # setup dalvik vm configs.
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
@@ -321,10 +329,6 @@ QCOM_BOARD_PLATFORMS := msm8952
 
 # List of targets that use video hw
 MSM_VIDC_TARGET_LIST := msm8952
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=480 \
-    ro.maintainer=DoveKi
 
 $(call inherit-product, device/xiaomi/kenzo/utils.mk)
 
