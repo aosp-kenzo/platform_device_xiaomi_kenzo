@@ -314,7 +314,7 @@ PRODUCT_BOOT_JARS += \
 
 # Browser packages
 PRODUCT_PACKAGES += \
-    Jelly
+    Browser
 
 # LCD
 PRODUCT_PROPERTY_OVERRIDES += \
