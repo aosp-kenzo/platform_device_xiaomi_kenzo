@@ -314,8 +314,7 @@ PRODUCT_BOOT_JARS += \
 
 # Browser packages
 PRODUCT_PACKAGES += \
-    Browser \
-    Mms
+    Browser
 
 # LCD
 PRODUCT_PROPERTY_OVERRIDES += \
